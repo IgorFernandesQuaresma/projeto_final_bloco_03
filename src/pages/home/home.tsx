@@ -1,4 +1,4 @@
-import header from '../../heeader.png'
+import header from '../../assets/heeader.png'
 
 function Home () {
     return (

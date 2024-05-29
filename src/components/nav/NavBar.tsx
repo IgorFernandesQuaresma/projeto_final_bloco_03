@@ -14,13 +14,18 @@ function NavBar () {
         </Link>
             <div className ='container_navBar_container_text
             flex flex-row gap-3'>
-        <Link to = './home'>
+        <Link to = '/'>
                 <a className = "text-bege font-sans hover:text-verde" href="#home">Home</a>
         </Link>
 
         <Link to = '/categorias'>
-                <a className = "text-bege font-sans hover:text-verde" href="#postagens" >Postagens</a>
+                <a className = "text-bege font-sans hover:text-verde" href="#postagens" >Categorias</a>
         </Link>
+
+        <Link to = '/formcategoria'>
+                <a className = "text-bege font-sans hover:text-verde" href="#postagens" >Criar categoria</a>
+        </Link>
+
         </div>
 
                 <div className="container_navBar_container_icon flex flex-row gap-3">
