@@ -1,4 +1,4 @@
-import { GithubLogo, LinkedinLogo, WhatsappLogo } from "@phosphor-icons/react";
+import { GithubLogo, LinkedinLogo} from "@phosphor-icons/react";
 
 
 
@@ -12,9 +12,14 @@ function Footer() {
 </div>
 
 <div className='flex flex-row gap-4'>
-<WhatsappLogo className='text-branco hover:opacity-50 transition-opacity duration-200' size={32}/>
-<GithubLogo className='text-branco hover:opacity-50 transition-opacity duration-200' size={32} />
-<LinkedinLogo className='text-branco hover:opacity-50 transition-opacity duration-200' size={32} />
+
+<a href="https://github.com/IgorFernandesQuaresma" target="_blank" rel="noopener noreferrer">
+    <GithubLogo className='text-branco hover:opacity-50 transition-opacity duration-200' size={32} />
+</a>
+
+<a href="https://www.linkedin.com/in/ifernandesq" target="_blank" rel="noopener noreferrer">
+    <LinkedinLogo className='text-branco hover:opacity-50 transition-opacity duration-200' size={32} />
+</a>
 </div>
 </footer>
 
